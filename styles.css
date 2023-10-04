@@ -12,16 +12,15 @@ body {
 }
 
 .container {
-    max-width: 120px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
 }
 
 header {
     background-color: #333;
     color: rgb(207, 202, 202);
     padding-bottom: 50cm;
-    padding-right: 3cm;
+    padding-left: 0.5cm;
     float: left;
 }
 
@@ -76,6 +75,7 @@ section {
 h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    margin-right: 80px;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ h2 {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    
+    margin-top: 30px;
 }
 
 /* Styles des services */
@@ -113,7 +113,8 @@ h2 {
 form label, form textarea, form input, form button {
     display: block;
     margin-bottom: 20px;
-    width: 100%;
+    margin-right: 70px;
+    width: 90%;
 }
 
 form textarea {
@@ -133,8 +134,11 @@ footer {
     background-color: rgb(26, 26, 26);
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 22px;
     margin: auto 0;
+    z-index: 4;
+    position: relative;
 }
 
 /* Styles responsives */
