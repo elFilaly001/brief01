@@ -1,0 +1,158 @@
+
+body, h1, h2, ul, li, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles généraux */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e4e4e4;
+    
+}
+
+.container {
+    max-width: 120px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: rgb(207, 202, 202);
+    padding-bottom: 50cm;
+    padding-right: 3cm;
+    float: left;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header a {
+    color: rgb(218, 229, 245);
+    text-decoration: none;
+}
+nav tr {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav td {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    display: block;
+    padding-right: 5.7cm;
+    padding-left: 1cm;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: rgb(26, 25, 25);
+}
+
+
+main {
+    
+    background-image:url("https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-90540.jpg");
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height:52.9cm;
+}
+
+section {
+    padding: 40px 0;
+    
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styles de bouton */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+/* Styles des services */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service img:hover {
+    transform: scale(1.1);
+}
+
+/* Styles du formulaire de contact */
+form label, form textarea, form input, form button {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles de pied de page */
+footer {
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin: auto 0;
+}
+
+/* Styles responsives */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav li {
+        margin-right: 10px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
