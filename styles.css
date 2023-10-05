@@ -13,13 +13,23 @@ body {
 
 .container {
     max-width: 800px;
-    margin-left: auto;
+}
+
+.page {
+    margin-left: 13cm;
+    text-align: center;
+}
+
+.page label {
+    text-align: left;
+    font-weight: bold;
+
 }
 
 header {
     background-color: #333;
     color: rgb(207, 202, 202);
-    padding-bottom: 50cm;
+    height: 2063px;
     padding-left: 0.5cm;
     float: left;
 }
@@ -64,7 +74,7 @@ main {
     background-image:url("https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-90540.jpg");
     background-size: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    min-height:52.9cm;
+    min-height: calc(1999.3700787px + 64px);
 }
 
 section {
@@ -75,7 +85,6 @@ section {
 h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    margin-right: 80px;
     text-align: center;
 }
 
@@ -98,8 +107,16 @@ h2 {
     gap: 20px;
 }
 
+.services-grid img {
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    border: 3px solid ;
+    border-radius: 10px;
+}
+
 .service img {
-    max-width: 100%;
+    max-width: 50px;
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -109,6 +126,28 @@ h2 {
     transform: scale(1.1);
 }
 
+.blogs h4,p {
+    text-align: left;
+    margin:11px;
+}
+
+.blogs{
+    margin: 20px;
+    background-color: #fff;
+    border: 2px solid #292929;
+    border-radius: 5px;
+    
+}
+.blogs img {
+    margin: 5px;
+    width: 97px;
+    float: left;
+    padding: 4px;
+}
+
+.pos{
+    display: flex;
+}
 /* Styles du formulaire de contact */
 form label, form textarea, form input, form button {
     display: block;
@@ -136,6 +175,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 22px;
+    padding-left: 800px;
     margin: auto 0;
     z-index: 4;
     position: relative;
